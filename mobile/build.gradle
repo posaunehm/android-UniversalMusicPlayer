@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 apply plugin: 'com.android.application'
+apply plugin: 'deploygate'
 
 android {
     compileSdkVersion 23
