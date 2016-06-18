@@ -18,4 +18,5 @@ deployment:
   develop: 
     branch: [master,deploygate]
     commands:
-      - ./gradlew :mobile:uploadDeployGateStagingDebug
+      - ./gradlew :mobile:task
+      - ./gradlew :mobile:uploadDeployGateDebug
