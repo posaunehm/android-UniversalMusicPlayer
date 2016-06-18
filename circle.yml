@@ -13,3 +13,9 @@ dependencies:
 test:
   override:
     - ./gradlew build check
+
+deployment:
+  develop: 
+    branch: [master,deploygate]
+    commands:
+      - ./gradlew :mobile:uploadDeployGateStagingDebug
